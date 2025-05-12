@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marsyaland | Sala de Eventos Privados</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0c284190d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="blob"></div>
+    <div class="blob2"></div>
+    <div class="star star1"></div>
+    <div class="star star2"></div>
+    <div class="star star3"></div>
+    <div class="droplet droplet1"></div>
+    <div class="droplet droplet2"></div>
+    <div class="container">
+      <header>
+        <img src="img/Logo/Marsyaland.png" alt="Marsyaland Logo" class="logo" />
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+      </nav>
+
+      <section class="hero" id="inicio">
+        <div class="hero-content">
+          <h1>¡Celebra en <span>Marsyaland</span> tu evento soñado!</h1>
+          <p>
+            En Marsyaland hacemos realidad las fiestas más divertidas y
+            memorables. Contamos con instalaciones de primera para todo tipo de
+            eventos privados: cumpleaños infantiles, baby showers, despedidas,
+            reuniones empresariales y mucho más.
+          </p>
+          <a href="#contacto" class="btn">¡Reserva Ahora!</a>
+        </div>
+        <div class="hero-image">
+          <img src="img/Sala/Sala Evento.jpg" alt="Sala de eventos decorada" />
+        </div>
+      </section>
+
+      <section class="services" id="servicios">
+        <div class="section-title">
+          <h2>Nuestros Servicios</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <img src="img/Fiesta/Fiesta infantil.jpg" alt="Fiesta infantil" />
+            <div class="service-content">
+              <h3>Fiestas Infantiles</h3>
+              <p>
+                Cumpleaños temáticos con decoración personalizada, juegos,
+                animación y mucha diversión para los pequeños.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <img src="img/Fiesta/Baby Shower.png" alt="Baby shower" />
+            <div class="service-content">
+              <h3>Baby Showers</h3>
+              <p>
+                Celebra la llegada de tu bebé en un ambiente mágico con
+                decoración especial y servicios a medida.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <img
+              src="img/Fiesta/Evento corporatvio.jpg"
+              alt="Evento corporativo"
+            />
+            <div class="service-content">
+              <h3>Eventos Corporativos</h3>
+              <p>
+                Reuniones de trabajo, team building o celebraciones con todas
+                las comodidades y equipo audiovisual.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <img
+              src="img/Fiesta/Fiesta privada.jpg"
+              alt="Celebración privada"
+            />
+            <div class="service-content">
+              <h3>Celebraciones Privadas</h3>
+              <p>
+                Aniversarios, graduaciones, reuniones familiares o cualquier
+                ocasión especial en un espacio único.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="galeria">
+        <div class="section-title">
+          <h2>Galería</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/api/placeholder/300/200" alt="Evento en Marsyaland" />
+          </div>
+          <div class="gallery-item">
+            <img src="/api/placeholder/300/200" alt="Sala decorada" />
+          </div>
+          <div class="gallery-item">
+            <img src="/api/placeholder/300/200" alt="Fiesta temática" />
+          </div>
+          <div class="gallery-item">
+            <img src="/api/placeholder/300/200" alt="Celebración especial" />
+          </div>
+          <div class="gallery-item">
+            <img src="/api/placeholder/300/200" alt="Evento familiar" />
+          </div>
+          <div class="gallery-item">
+            <img src="/api/placeholder/300/200" alt="Decoración temática" />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contacto">
+        <div class="section-title">
+          <h2>Reserva Tu Evento</h2>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" placeholder="Tu nombre completo" />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" placeholder="Tu número de contacto" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Tu correo electrónico"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="event-type">Tipo de evento</label>
+            <select id="event-type">
+              <option value="">Selecciona una opción</option>
+              <option value="birthday">Cumpleaños infantil</option>
+              <option value="baby-shower">Baby shower</option>
+              <option value="corporate">Evento corporativo</option>
+              <option value="celebration">Celebración privada</option>
+              <option value="other">Otro</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Fecha del evento</label>
+            <input type="date" id="date" />
+          </div>
+
+          <div class="form-group">
+            <label for="guests">Número de invitados</label>
+            <input
+              type="number"
+              id="guests"
+              placeholder="Cantidad aproximada"
+            />
+          </div>
+
+          <div class="form-group full">
+            <label for="message">Mensaje</label>
+            <textarea
+              id="message"
+              placeholder="Cuéntanos más sobre tu evento..."
+            ></textarea>
+          </div>
+
+          <div class="form-group full">
+            <button type="submit" class="submit-btn">Enviar Solicitud</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="ubicacion">
+        <div class="section-title">
+          <h2>Nuestra Ubicación</h2>
+        </div>
+        <div style="border-radius: 30px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1520.3046703678551!2d-3.7001084500585115!3d40.35101138624767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227e74426c6d7%3A0xedc3ca8fd4c86fdf!2sMarsyaland!5e0!3m2!1ses!2ses!4v1745689958408!5m2!1ses!2ses"
+            width="1150"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Marsyaland</h3>
+            <p>
+              Sala de eventos privados para todo tipo de celebraciones. ¡Hacemos
+              de tu día especial un momento inolvidable!
+            </p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61568843552770"
+                ><i class="fa-brands fa-facebook" style="color: #74c0fc"></i
+              ></a>
+              <a href="https://www.instagram.com/marsyaland/#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send?phone=%2B34623339121&app=facebook&entry_point=page_cta&fbclid=IwY2xjawJ59dtleHRuA2FlbQIxMAABHjw7vYpk7IzOkXhWpZDPmvz1Ar37MpJJb74NoUZwKEOwj37Vn3-A1BM5c62v_aem_WoTlqpc3Rf99N3EKL22jUw"
+                ><i class="fa-brands fa-whatsapp" style="color: #63e6be"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Enlaces Rápidos</h3>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#ubicacion">Ubicación</a>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contáctanos</h3>
+            <p>📞 Teléfono: 623 33 91 21</p>
+            <p>
+              🏠 C. de la Vírgen de los Desamparados, 36, Villaverde, 28041
+              Madrid
+            </p>
+          </div>
+
+          <div class="footer-column">
+            <h3>Horario</h3>
+            <p>Lunes a Viernes: 10:00 AM - 8:00 PM</p>
+            <p>Sábados y Domingos: 9:00 AM - 10:00 PM</p>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2025 Marsyaland - Todos los derechos reservados</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
